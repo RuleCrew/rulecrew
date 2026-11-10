@@ -1,0 +1,16 @@
+RuleCrew
+Copyright (c) 2026 RuleCrew Developer. All rights reserved.
+
+RuleCrew is proprietary software, provided free of charge under the RuleCrew Freeware License Agreement
+(see LICENSE). It is licensed, not sold.
+
+RuleCrew is an independent product. It is not affiliated with, sponsored by, endorsed by, or supported by
+International Business Machines Corporation (IBM). IBM, the IBM logo, IBM Operational Decision Manager, ODM,
+Decision Center, Rule Designer and Rule Execution Server are trademarks or registered trademarks of IBM Corp., in
+the US or other countries or both. Other product and company names are trademarks of their respective owners and
+are used only to say what RuleCrew works with. See TRADEMARKS.md.
+
+IBM ODM and IBM's rules compiler are NOT included. You need your own valid IBM ODM license (for development, the
+IBM ODM for Developers container image, under IBM's terms).
+
+RuleCrew includes third-party components under their own licenses; see THIRD_PARTY_NOTICES.md.

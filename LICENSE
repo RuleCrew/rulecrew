@@ -1,0 +1,92 @@
+RuleCrew Freeware License Agreement
+Version 1.1, November 2026
+
+Copyright (c) 2026 RuleCrew Developer. All rights reserved.
+
+This agreement is between you (an individual, or the organization you act for) and RuleCrew Developer ("the
+Licensor"), the author of RuleCrew. By installing, copying or using RuleCrew, you accept this agreement. If you
+do not accept it, do not install or use RuleCrew.
+
+1. Software. "RuleCrew" means the RuleCrew programs in object-code form (including the Windows desktop
+   application, the Rule Designer plug-in and its update site), their documentation, and any updates the
+   Licensor provides under this agreement. Third-party components are covered by section 7.
+
+2. License granted. The Licensor grants you a free, non-exclusive, non-transferable, revocable license to
+   install and use RuleCrew on computers you or your organization control, for any lawful purpose, including
+   internal commercial use, for as many users and computers as you need.
+
+3. Restrictions. You must not, and must not allow others to:
+   a) sell, rent, lease, sublicense, publish or distribute RuleCrew, or offer it as a hosted or managed service
+      to third parties, without the Licensor's written permission;
+   b) modify, translate or create derivative works of RuleCrew;
+   c) decompile, disassemble or reverse engineer RuleCrew, except to the extent applicable law expressly
+      permits it despite this restriction;
+   d) remove or change any copyright, trademark or license notice in RuleCrew;
+   e) use RuleCrew in breach of any law, or of the license terms of IBM software or any other software you use
+      it with.
+   Your organization may make copies for its own internal deployment and backup.
+
+4. IBM software is not included. RuleCrew works with IBM Operational Decision Manager (ODM) but does not
+   include it. You need your own valid license for IBM ODM and any other IBM software you use with RuleCrew,
+   and you are responsible for complying with its terms. RuleCrew is an independent product, not affiliated
+   with, sponsored by, endorsed by or supported by IBM. See TRADEMARKS.md.
+
+5. Your data and AI services. RuleCrew runs on your computers. It sends data to a language-model service only
+   if you configure one, and then only to the service you choose, under that service's terms. If you allow it,
+   RuleCrew asks GitHub once a day for the latest version number; nothing about you or your rules is sent. RuleCrew
+   sends nothing to the Licensor. See the privacy notice (PRIVACY.md). You are responsible for your choice of service, for the data you send to it, and for
+   reviewing and approving every change RuleCrew proposes before you deploy it. RuleCrew's suggestions and
+   checks are aids; they do not replace your own testing and review.
+
+6. Ownership. RuleCrew is licensed, not sold. The Licensor keeps all rights, title and interest in RuleCrew,
+   including all intellectual property rights. Feedback you give may be used by the Licensor without
+   obligation to you.
+
+7. Third-party components. RuleCrew includes components owned by others (listed in THIRD_PARTY_NOTICES). Each
+   is licensed to you under its own license, and nothing in this agreement limits your rights under those
+   licenses.
+
+8. No warranty. RULECREW IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING
+   WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, NON-INFRINGEMENT, ACCURACY, OR THAT IT WILL
+   RUN WITHOUT ERRORS OR INTERRUPTION. YOU USE IT AT YOUR OWN RISK. No support or maintenance is included.
+
+9. Limitation of liability. TO THE MAXIMUM EXTENT PERMITTED BY LAW, THE LICENSOR IS NOT LIABLE FOR ANY
+   INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL OR PUNITIVE DAMAGES, OR FOR LOSS OF PROFITS, REVENUE, DATA,
+   BUSINESS OR GOODWILL, OR FOR WRONG BUSINESS DECISIONS, ARISING FROM OR RELATED TO RULECREW, EVEN IF ADVISED OF
+   THEIR POSSIBILITY. THE LICENSOR'S TOTAL LIABILITY IS LIMITED TO THE AMOUNT YOU PAID FOR RULECREW (ZERO, FOR
+   THIS FREE LICENSE). Some jurisdictions do not allow these limits; there they apply as far as permitted.
+
+10. Early-access versions. Each early-access version of RuleCrew stops working on the date it shows (about six
+    months after its release), checked against your computer's clock. Newer early-access versions are free to
+    download from https://github.com/RuleCrew/rulecrew/releases. This is not a breach and does not affect your
+    settings. Later versions may be offered under different terms, including paid editions or paid features; each
+    version keeps the terms it was released with, and the Licensor will say so in the release notes before a
+    version with new terms is published.
+
+11. Termination. This license ends automatically if you breach it. The Licensor may also end it by notice, for
+    example by publishing a new version of this agreement. When it ends, stop using RuleCrew and delete your
+    copies. Sections 3, 6, 8, 9, 12 to 17 survive.
+
+12. Export. You must comply with all export and sanctions laws that apply to your use of RuleCrew.
+
+13. General. This agreement is the entire agreement about RuleCrew and replaces any earlier terms. If a part of
+    it cannot be enforced, the rest remains in force. Failure to enforce a right is not a waiver. The Licensor
+    may publish new versions of this agreement; a new version applies to versions of RuleCrew released with
+    it.
+
+14. Your rules and outputs. Your rules, data and the changes RuleCrew drafts for you belong to you (or your
+    organization) as between you and the Licensor; the Licensor claims no rights in them. RuleCrew's output is
+    produced with AI services and may be incomplete or wrong, even when its checks pass.
+
+15. Decisions about people. You are solely responsible for the business decisions your rules make and for
+    complying with the laws that apply to them, including those on credit, insurance, employment, consumer
+    protection, anti-discrimination, data protection and automated decision-making. Review and test every change
+    before you deploy it. RuleCrew is not legal, financial or compliance advice.
+
+16. Indemnity. To the extent permitted by law, you will defend and indemnify the Licensor against third-party
+    claims arising from your use of RuleCrew, the rules and decisions you deploy, the data you send to services
+    you configure, or your breach of this agreement.
+
+17. Other parties' terms. Your use of IBM software, language-model services and GitHub is governed by your own
+    agreements with those parties; the Licensor is not a party to them and is not responsible for their services.
+Contact: https://github.com/RuleCrew/rulecrew/issues
