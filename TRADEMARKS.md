@@ -23,9 +23,3 @@ owners and are used only to identify them.
   in the US or other countries or both. RuleCrew is not affiliated with IBM.*
 - Do not write "IBM RuleCrew", "ODM Agents", "official", "certified" or "IBM partner", and do not use IBM logos,
   unless IBM has given written permission.
-
-## Technical names
-
-Some technical names - the `odm_rule_agent` package, the `odm-rule-agent-*` commands and the Windows
-installer identity - keep their first-release names so existing installations upgrade in place. They are
-identifiers, not product names; the product is RuleCrew.
