@@ -17,8 +17,10 @@ own engine. You review every file before anything is written, and approved chang
 - **Answers for business users:** questions about existing rules, answered from the rules and ODM's engine.
 - **Checks without any AI model:** health check, explain a decision, baseline, impact and dates.
 
-**Our aim** is to save ODM teams time from request to approved change. We have not measured that yet; the
-[benchmark](BENCHMARK.md) shows what has been measured so far.
+**Built to help ODM teams move from business request to approved change faster** - by doing the drafting,
+building and checking steps for you, so your people spend their time reviewing and deciding. Time saved depends on
+your rules and your process, and we do not promise a figure; the [benchmark](BENCHMARK.md) shows what has been
+measured so far.
 
 > **Free for now, no liability.** RuleCrew is free to use during early access. It is provided as is, without
 > warranty, and its author accepts no liability for any loss or damage from its use - you review, test and approve
