@@ -14,17 +14,19 @@ A case passes only when all of these hold:
 
 A failing case is never hidden: the run's report lists every check that failed.
 
-## Results (development build after RuleCrew 0.3.1, 2026-11-02, model: Anthropic Claude Haiku)
-| Set | Cases | Passed | Typical time per case |
+## Results (2026-11-06/07, development build before 0.3.4, model: Anthropic Claude Haiku, one run per case unless stated)
+"First attempt" means the crew's first plan passed every check; "after repairs" counts the crew's own repair rounds.
+
+| Set | Cases | First attempt | After repairs |
 |---|---|---|---|
-| Rule workspace / Git folder: thresholds, new rules, tiers and bands, decision tables, ruleflows (new tasks, tasks between others, conditional branches, removed tasks), BOM attributes, several changes in one request, questions about decisions | 39 | 35 of 39 in the latest runs (varies between runs; the 4 harder ruleflow cases are new in this build) | 1-5 min |
-| Decision Center, complex set (one planner path): grouped decision tables, 'is one of' and 'otherwise', decimal ratios, ruleflow actions and transitions, cross-project variables, object-model hand-off | 9 | 7 of 9 in the latest run (5-7 of 9 across runs) | about 2-7 min |
+| Hard change cases on the sample projects, 3 repeats (as shipped, critics on) | 10 x 3 | 12 of 30 | 27 of 30 |
+| Complex workspace requests: changes wanted | 9 | 2 of 9 | 4 of 9 |
+| Complex workspace requests: should ask, refuse or explain | 6 | - | 3 of 6 |
+| Real requirement texts: changes wanted | 3 | 0 of 3 | 1 of 3 |
 
-RuleCrew 0.3.1 passed 35 of 35 cases of the earlier workspace set.
-
-These figures are from that development build; they were not run again on 0.3.4. They count a case as passed after
-the crew's own repair rounds. First-attempt results were not recorded for these two sets. On a separate, earlier set
-of 10 hard rule-change cases on a small model, 4 to 6 of 10 passed on the first attempt and 8 to 9 of 10 after repair.
+In these 95 case runs no wrong change was offered as ready: a case that failed was stopped by a check, or the crew
+asked instead. These figures were not run again on a later build. Earlier figures (2026-11-02, 39 workspace cases
+and 9 Decision Center cases) counted only results after repairs and are no longer shown.
 
 ## What the numbers mean
 - Results vary between runs because the AI model varies; the checks do not. A change that fails a check is not

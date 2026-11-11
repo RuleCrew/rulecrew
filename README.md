@@ -5,20 +5,32 @@ Describe a business change in plain English; RuleCrew's agents find the affected
 ruleflows, write the change, and prove it on ODM's own engine before you approve it.
 
 **Why RuleCrew exists:** to help IBM ODM teams turn a policy change into a tested change ready for approval. How much
-time that saves on your rules has not been measured; on the [benchmark](BENCHMARK.md)'s sample projects a case takes
-the crew about 1 to 7 minutes. We keep improving it with every release, driven by what ODM users need.
-
-**RuleCrew 0.3.4 is early access.** Expect rough edges, and results that vary between runs.
+time it saves on your rules has not been measured. See the [benchmark](BENCHMARK.md) for what has been measured.
 
 > **Free for now, no liability.** RuleCrew is free to use during early access. It is provided as is, without
 > warranty, and its author accepts no liability for any loss or damage from its use - you review, test and approve
 > every change before it reaches production. See [No liability](#no-liability) and the [license](LICENSE).
 
-**Watch the demo:** a narrated walkthrough recorded with an earlier version (0.3.3) - business questions answered
-from ODM's engine, generated documentation, and agents planning, building and testing a rule change. A new demo of
-0.3.4 is being recorded.
+## Demo videos
 
-https://github.com/user-attachments/assets/98f04965-fc1a-4e1f-8f25-1e3a3c46443e
+[![RuleCrew demo](media/demo-poster.png)](https://youtu.be/gS_DsnHsF78)
+
+**[Watch the 13-minute overview on YouTube](https://youtu.be/gS_DsnHsF78)** - business questions answered from ODM's
+engine, a change in a Rule Designer workspace, a Decision Center change approved by two people, and a live decision on
+the Rule Execution Server.
+
+Short videos by topic:
+- [Ask about your rules in plain English](https://youtu.be/ok7-_NKXZTw) (3:34)
+- [Why did this request get this decision?](https://youtu.be/hVP9DtpmvYI) (3:32)
+- [Documentation of a rule project, generated](https://youtu.be/SJdkgSrLF-A) (2:56)
+- [Test cases and test data, explained](https://youtu.be/L-mTyFXLQcQ) (2:30)
+- [A rule change in a Rule Designer workspace](https://youtu.be/lHOgIPHvlOs) (2:17)
+- [A Decision Center change, approved by two people](https://youtu.be/Ngq13GI8XeE) (2:14)
+- [Checks that need no AI model](https://youtu.be/WBkbXwIyriE) (2:32)
+- [What's coming next (planned)](https://youtu.be/8uBt1h2eB68) (1:13)
+
+All videos can also be downloaded in full quality from the
+[demo release](https://github.com/RuleCrew/RuleAgents/releases/tag/demo-2026-11-10).
 
 > **Runs entirely on your machine.** RuleCrew has no cloud service and sends nothing to RuleCrew or its author -
 > no telemetry, analytics, usage data or crash reports. Your rules, data and settings stay on your
@@ -53,7 +65,7 @@ Ask for tests of a rule or a behaviour ("write tests for the maximum amount rule
 
 **For business users - understand your decisions, in plain language**
 - **"Why was this application refused?"** Paste the transaction (request data) or describe it: RuleCrew runs it on
-  your test Rule Execution Server, traces which rules fired and which did not, and explains in everyday words why
+  ODM's engine (embedded, or your test Rule Execution Server), traces which rules fired and which did not, and explains in everyday words why
   the outcome is what it is - and what would have to change to get the expected result.
 - **"Which rules decide X?"** Ask about any part of the logic - eligibility, pricing, limits, dates - and get the
   rules involved, their conditions and their order, without reading rule code.
@@ -80,14 +92,19 @@ check cannot read is said on the card and relies on the examples. A person still
 See the step-by-step [Getting started guide](GETTING_STARTED.md).
 
 ## Download
-From [Releases](../../releases) - the latest is [0.3.4](../../releases/tag/v0.3.4):
-- [`RuleCrew-0.3.4-windows.zip`](../../releases/download/v0.3.4/RuleCrew-0.3.4-windows.zip) - the Windows desktop application (Java included). Unzip, run
-  `odm-rule-agent.exe`; the browser opens at `http://127.0.0.1:8765`; fill in Settings.
-- A Rule Designer plug-in is included as an optional early-access add-on. It works on the rule projects open in Rule Designer; Decision Center work happens on the web page.
+**The download is coming soon** on [Releases](../../releases). Until then, watch the [demo videos](#demo-videos).
+Container images are not published yet.
 
-**Updates.** RuleCrew can tell you when a new version is out (you are asked at first start). Install it by
-unzipping or installing it anywhere - your setup is saved once (in `%LOCALAPPDATA%\RuleCrew`) and every version uses it. This is an early-access release: each version stops
-working about six months after its release date (shown in the app), and newer early-access versions are free.
+What the download will be: a Windows zip with the desktop application (Java included). Unzip, run
+`odm-rule-agent.exe`; the browser opens at `http://localhost:8765`; fill in Settings.
+
+A Rule Designer plug-in is an optional early-access add-on. Its chat works only on the workspace open in Rule
+Designer; Decision Center work happens on the web page.
+
+**Updates.** RuleCrew can tell you when a new version is out (you are asked at first start). Unzip a new version
+anywhere - your setup is saved once (in `%LOCALAPPDATA%\RuleCrew`) and every version uses it. Each early-access
+version expires about six months after its release date (shown in the app): after that it still explains, checks
+and tests, but applies no change. Newer early-access versions are free.
 
 **Free during early access.** RuleCrew is free while it is in early access. Later versions may add paid editions or
 paid features (for example team features and support); any such change will be announced in the release notes
@@ -98,8 +115,9 @@ start. To run it, click **More info**, then **Run anyway**. If your company requ
 can sign `odm-rule-agent.exe` with its internal code-signing certificate before rolling it out.
 
 ## Requirements
-- Windows 10 or 11. (macOS support is being tested.)
-- **Your own licensed IBM ODM** (9.0 to 9.6 supported; 8.11 and 8.12 experimental). IBM ODM is **not** included. RuleCrew was developed and tested
+- Windows 10 or 11, 64-bit. Linux and macOS versions are available on request: reach out to us and we will provide
+  one for your team.
+- **Your own licensed IBM ODM** (9.0, 9.5 and 9.6 supported; 8.11 and 8.12 experimental). IBM ODM is **not** included. RuleCrew was developed and tested
   against IBM ODM 9.6 using IBM's publicly available *IBM ODM for Developers* container image, under IBM's terms
   for that image; this does not imply any review, certification or endorsement by IBM.
 - A language model you provide: Anthropic, OpenAI, Azure OpenAI (key or Microsoft Entra ID), Amazon Bedrock (API key,

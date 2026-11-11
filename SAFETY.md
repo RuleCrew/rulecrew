@@ -7,7 +7,7 @@ Read this before you connect RuleCrew to a Decision Center or a rule workspace.
 |---|---|---|
 | Decision Center | Imports a change set into the **working branch you selected** | Only after a person approves the change on its card |
 | Decision Center `main` | Nothing - RuleCrew refuses to write to `main` | Never |
-| Rule Execution Server | Deploys **private draft RuleApps** (named for RuleCrew) to test a change before you see it; a draft left behind by an interrupted run stays on the server until you remove it | While it checks a change |
+| Rule Execution Server | Deploys **private draft RuleApps** (named for RuleCrew) to test a change before you see it, only when you test on a Rule Execution Server instead of the embedded engine (Settings > Governance can make it ask first); a draft left behind by an interrupted run stays on the server until you remove it | While it checks a change |
 | A rule workspace folder | Writes the changed files to the folder, uncommitted, after your approval. It makes no commits and no branches (in Rule Designer you apply them through Compare) | After your approval; committing is yours |
 | Your computer | Its own settings, knowledge and logs in `%LOCALAPPDATA%\RuleCrew` | Always |
 

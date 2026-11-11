@@ -1,16 +1,19 @@
 # Getting started with RuleCrew
 
-You need IBM ODM installed on this computer (RuleCrew uses its build command and engine) and your rule projects.
-An AI model is needed only for chat and changes.
+You need your own licensed IBM ODM - its installation folder on this computer (RuleCrew uses its build command and
+engine) - and your rule projects. An AI model is needed only for chat and changes.
+
+There is no download yet: release 0.3.4 was withdrawn to be rebuilt. A demo video comes first, then the download.
+The steps below describe that download.
 
 ## Start
 
-1. Download `RuleCrew-<version>-windows.zip` from [Releases](../../releases).
+1. Download `RuleCrew-<version>-windows.zip` from [Releases](../../releases) once it is published.
 2. Unzip it into any folder, for example `C:\Tools\RuleCrew`.
 3. Double-click **`odm-rule-agent.exe`**.
    - Windows may say "Windows protected your PC" (the program is not code-signed yet): click **More info** >
      **Run anyway**.
-4. Your browser opens **http://127.0.0.1:8765**. If it does not, open that address yourself.
+4. Your browser opens **http://localhost:8765**. If it does not, open that address yourself.
 
 Java is included; you do not need to install anything else.
 
@@ -69,7 +72,7 @@ See [AI_MODELS.md](AI_MODELS.md).
 
 | Symptom | What to do |
 |---|---|
-| The browser does not open | Open http://127.0.0.1:8765 yourself |
+| The browser does not open | Open http://localhost:8765 yourself |
 | "ODM build command not found" | Check the ODM installation folder: it must contain `buildcommand\rules-compiler\rules-compiler.jar` |
 | Decision Center or RES red in the checks | Check the address and that you can open it in the browser; check user and password |
 | "No AI model yet" | Explain and Health work without one. For chat and changes, add one in **Settings > AI model** |
