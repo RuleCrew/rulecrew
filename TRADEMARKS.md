@@ -11,7 +11,8 @@ countries, or both. RuleCrew uses these names in plain text only, to say which p
 example "RuleCrew works with IBM® Operational Decision Manager"). It does not use IBM logos or IBM visual
 identity, and IBM names are not part of RuleCrew's product name.
 
-Other names (for example Eclipse, Python, Claude, Anthropic, OpenAI, GitHub) are trademarks of their respective
+Other names (for example Microsoft, Windows, Azure, Google, Amazon, AWS, Oracle, Java, Eclipse, Python, Docker,
+Kubernetes, Linux, macOS, Anthropic, Claude, OpenAI, Nebius, GitHub and YouTube) are trademarks of their respective
 owners and are used only to identify them.
 
 ## How to refer to RuleCrew
