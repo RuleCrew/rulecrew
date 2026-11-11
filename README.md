@@ -1,7 +1,10 @@
 # RuleCrew™
 
-**A companion for IBM® Operational Decision Manager (ODM) teams: AI agents that help you change, check and explain
-the rules you already have.**
+**Tell RuleCrew the business change you need. It writes the rule change, tests it on your own IBM® ODM, and hands it
+to you ready to approve - in one place, instead of many manual steps.**
+
+A companion for IBM® Operational Decision Manager (ODM) teams: AI agents that help you change, check and explain the
+rules you already have.
 
 RuleCrew works alongside your ODM. It does not replace Rule Designer, Decision Center or the Rule Execution Server:
 it uses them. Describe a business change in plain English and RuleCrew's agents find the affected rules, decision
