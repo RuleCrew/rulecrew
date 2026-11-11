@@ -40,10 +40,7 @@ the Rule Execution Server.
 Short videos by topic:
 - [Ask about your rules in plain English](https://youtu.be/ok7-_NKXZTw) (3:34)
 - [Why did this request get this decision?](https://youtu.be/hVP9DtpmvYI) (3:32)
-- [Documentation of a rule project, generated](https://youtu.be/SJdkgSrLF-A) (2:56)
-- [Test cases and test data, explained](https://youtu.be/L-mTyFXLQcQ) (2:30)
 - [A rule change in a Rule Designer workspace](https://youtu.be/lHOgIPHvlOs) (2:17)
-- [A Decision Center change, approved by two people](https://youtu.be/Ngq13GI8XeE) (2:14)
 - [Checks that need no AI model](https://youtu.be/WBkbXwIyriE) (2:32)
 - [What's coming next (planned)](https://youtu.be/8uBt1h2eB68) (1:13)
 
