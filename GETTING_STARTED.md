@@ -3,8 +3,8 @@
 You need your own licensed IBM ODM - its installation folder on this computer (RuleCrew uses its build command and
 engine) - and your rule projects. An AI model is needed only for chat and changes.
 
-There is no download yet: release 0.3.4 was withdrawn to be rebuilt. A demo video comes first, then the download.
-The steps below describe that download.
+The download is coming soon. Until then, watch the [demo videos](README.md#demo-videos). The steps below describe
+the download.
 
 ## Start
 
@@ -51,8 +51,8 @@ requester and approver are recorded in RuleCrew's ledger and evidence pack, not 
 3. Click **BOM Update** in Rule Designer.
 4. Tell RuleCrew to continue. It checks again and proves the change.
 
-What is verified so far: RuleCrew stopping early, and re-checking on the workspace. BOM Update itself has not yet been
-run in a real Rule Designer as part of this flow.
+What is verified so far: RuleCrew stopping early, re-checking on the workspace, and one hand test in a real Rule
+Designer (Java change, BOM Update, then the rule that uses the new field, up to the approval card).
 
 ## When something waits
 
