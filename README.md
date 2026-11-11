@@ -29,6 +29,8 @@ Short videos by topic:
 - [Checks that need no AI model](https://youtu.be/WBkbXwIyriE) (2:32)
 - [What's coming next (planned)](https://youtu.be/8uBt1h2eB68) (1:13)
 
+Recorded with IBM's free developer editions (IBM ODM for Developers and Rule Designer), used under IBM's terms for development and testing. RuleCrew does not include any IBM software.
+
 All videos can also be downloaded in full quality from the
 [demo release](https://github.com/RuleCrew/RuleAgents/releases/tag/demo-2026-11-10).
 
