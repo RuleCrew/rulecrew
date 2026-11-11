@@ -1,11 +1,21 @@
 # RuleCrew™
 
-**AI agents for IBM® Operational Decision Manager (ODM) rule development and maintenance.**
-Describe a business change in plain English; RuleCrew's agents find the affected rules, decision tables and
-ruleflows, write the change, and prove it on ODM's own engine before you approve it.
+**A companion for IBM® Operational Decision Manager (ODM) teams: AI agents that help you change, check and explain
+the rules you already have.**
 
-**Why RuleCrew exists:** to help IBM ODM teams turn a policy change into a tested change ready for approval. How much
-time it saves on your rules has not been measured. See the [benchmark](BENCHMARK.md) for what has been measured.
+RuleCrew works alongside your ODM. It does not replace Rule Designer, Decision Center or the Rule Execution Server:
+it uses them. Describe a business change in plain English and RuleCrew's agents find the affected rules, decision
+tables and ruleflows, write the change, build it with ODM's own build command and run it before and after on ODM's
+own engine. You review every file before anything is written, and approved changes go into your normal ODM workflow.
+
+**What it helps with**
+- **From policy to a tested change:** the change, its examples and the evidence, ready for your review.
+- **Knowing what a change affects:** known decisions are replayed before and after, and what moved is shown.
+- **Answers for business users:** questions about existing rules, answered from the rules and ODM's engine.
+- **Checks without any AI model:** health check, explain a decision, baseline, impact and dates.
+
+**Our aim** is to save ODM teams time from request to approved change. We have not measured that yet; the
+[benchmark](BENCHMARK.md) shows what has been measured so far.
 
 > **Free for now, no liability.** RuleCrew is free to use during early access. It is provided as is, without
 > warranty, and its author accepts no liability for any loss or damage from its use - you review, test and approve
